@@ -47,7 +47,9 @@ OTPLegends mengirimkan permintaan POST ke API Mobile Legends dengan parameter `r
 - **Requests**: Pustaka HTTP untuk mengirimkan permintaan POST ke server Mobile Legends.
 
 ## Tangkapan Layar
-![Screenshot](https://github.com/user-attachments/assets/4d32ef26-27fd-4341-8068-4ce6daf88ed0)
+![Screenshot_20240909-1](https://github.com/user-attachments/assets/2447bc96-2eee-4a42-8b13-1963b1a9c673)
+
+![Screenshot_20240909-2](https://github.com/user-attachments/assets/4d32ef26-27fd-4341-8068-4ce6daf88ed0)
 
 ## Dukungan
 Jika Anda merasa proyek ini bermanfaat dan ingin mendukung pengembang, Anda bisa memberikan dukungan melalui:
@@ -65,4 +67,4 @@ Setiap dukungan akan sangat membantu untuk pengembangan lebih lanjut dari proyek
 Kami tidak bertanggung jawab atas penggunaan alat ini yang melanggar hukum atau kebijakan platform. Penggunaan alat ini sepenuhnya adalah tanggung jawab pengguna.
 
 ## Lisensi
-Proyek ini dilisensikan di bawah [MIT License]().
+Proyek ini dilisensikan di bawah [MIT License](https://github.com/RozhakXD/OtpLegends?tab=MIT-1-ov-file).
