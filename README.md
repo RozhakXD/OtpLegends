@@ -6,9 +6,9 @@
 **Catatan Penting: Penggunaan alat ini hanya untuk tujuan edukasi atau prank dengan persetujuan. Penyalahgunaan alat ini dapat melanggar ketentuan layanan atau hukum yang berlaku. Gunakan dengan bijak!**
 
 ## Fitur
+- Menggunakan threading untuk mempercepat proses pengiriman.
 - Menampilkan hasil pengiriman secara real-time menggunakan pustaka `rich`.
 - Mengirimkan spam OTP ke akun Mobile Legends.
-- Menggunakan threading untuk mempercepat proses pengiriman.
 - Mendukung pengaturan jumlah pengiriman.
 
 ## Cara Kerja
@@ -31,20 +31,20 @@ OTPLegends mengirimkan permintaan POST ke API Mobile Legends dengan parameter `r
 
 ## Penggunaan
 1. Setelah menjalankan program, Anda akan diminta memasukkan beberapa input seperti:
-    - **Jumlah Spam**: Jumlah OTP yang ingin dikirimkan.
     - **Role ID**: ID akun target di Mobile Legends.
+    - **Jumlah Spam**: Jumlah OTP yang ingin dikirimkan.
     - **Zone ID**: Zona ID akun target.
-2. Alat ini kemudian akan mulai mengirimkan OTP secara otomatis berdasarkan input yang telah diberikan. Anda dapat menghentikan proses kapan saja dengan menekan `CTRL + C` atau `CTRL + Z`.
+3. Alat ini kemudian akan mulai mengirimkan OTP secara otomatis berdasarkan input yang telah diberikan. Anda dapat menghentikan proses kapan saja dengan menekan `CTRL + C` atau `CTRL + Z`.
 
 ## Struktur Kode
-- **Run.py**: File utama yang menjalankan seluruh proses spamming OTP.
 - **requirements.txt**: Berisi daftar pustaka Python yang dibutuhkan oleh program (seperti `requests`, `rich`, dan `fake-useragent`).
+- **Run.py**: File utama yang menjalankan seluruh proses spamming OTP.
 
 ## Teknologi yang Digunakan
-- **Python**: Bahasa pemrograman utama yang digunakan untuk membangun alat ini.
-- **Requests**: Pustaka HTTP untuk mengirimkan permintaan POST ke server Mobile Legends.
-- **Rich**: Digunakan untuk mempercantik output tampilan di terminal.
 - **Fake-UserAgent**: Digunakan untuk menghasilkan header User-Agent palsu secara dinamis.
+- **Python**: Bahasa pemrograman utama yang digunakan untuk membangun alat ini.
+- **Rich**: Digunakan untuk mempercantik output tampilan di terminal.
+- **Requests**: Pustaka HTTP untuk mengirimkan permintaan POST ke server Mobile Legends.
 
 ## Tangkapan Layar
 ![Screenshot](https://github.com/user-attachments/assets/4d32ef26-27fd-4341-8068-4ce6daf88ed0)
